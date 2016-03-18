@@ -17,4 +17,20 @@ You must put your otp.bin (size: 256 bytes) in the folder just cloned,and run ma
 
 File info:
 
+new3ds90.firm:
 
+SHA256: 
+SHA1:
+MD5:
+
+new3ds10.firm:
+
+SHA256:
+SHA1:
+MD5:
+
+secret_sector.bin:
+
+SHA256:
+SHA1:
+MD5:
