@@ -1,21 +1,20 @@
 
-data input for arm9loaderhax: https://github.com/delebile/arm9loaderhax
+# Data_Input for Arm9loaderhax: https://github.com/delebile/arm9loaderhax
 
-Clone arm9loaderhax:
+Open up Command Prompt
 
-git clone https://github.com/delebile/arm9loaderhax
+1. Clone arm9loaderhax:
+"git clone https://github.com/delebile/arm9loaderhax"
 
-Go to the arm9loaderhax folder:
+2. Go to the arm9loaderhax folder:
+"cd arm9loaderhax"
 
-cd arm9loaderhax
+3. Clone this repo:
+"git clone https://github.com/mariogamer2/input"
 
-And clone this repo:
+4. You must put your otp.bin (size: 256 bytes) in the folder just cloned, and run "make".
 
-git clone https://github.com/mariogamer2/data_input
-
-You must put your otp.bin (size: 256 bytes) in the folder just cloned,and run make.
-
-File info:
+# File info:
 
 new3ds90.firm:
 
