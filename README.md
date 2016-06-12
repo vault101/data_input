@@ -18,7 +18,7 @@ Open up Command Prompt
 4. Clone this repo:
 `git clone https://github.com/mariogamer2/data_input`
 
-5. Copy the content of this repo (exept README and gitignore) in an `a9lh` folder on the root of your SD,with your personnal OTP file
+5. Copy the content of this repo (exept README and gitignore), your personnal OTP file and the content of the `out` folder of arm9loadhax (after running make) in an `a9lh` folder on the root of your SD
 
 6. Run SafeA9LHInstaller
 
