@@ -1,33 +1,43 @@
 
 # Data_Input for Arm9loaderhax: https://github.com/delebile/arm9loaderhax
 
+# IMPORTANT: THIS WILL BRICK YOUR CONSOLE IF YOU DO NOT INSTALL IT WITH [SAFEA9LH V2](https://github.com/AuroraWright/SafeA9LHInstaller/releases)!!!!
+
+You must have [devkitARM with devkitPro](http://devkitpro.org/wiki/Getting_Started) in your PATH.
+
 Open up Command Prompt
 
 1. Clone arm9loaderhax:
-"git clone https://github.com/delebile/arm9loaderhax"
+`git clone https://github.com/AuroraWright/arm9loaderhax`
 
 2. Go to the arm9loaderhax folder:
 "cd arm9loaderhax"
 
-3. Clone this repo:
-"git clone https://github.com/mariogamer2/input"
+3. Run `make`
 
-4. You must put your otp.bin (size: 256 bytes) in the folder just cloned, and run "make".
+4. Clone this repo:
+`git clone https://github.com/mariogamer2/data_input`
 
-# File info:
+5. Copy the content of this repo (exept README and gitignore) in an `a9lh` folder on the root of your SD,with your personnal OTP file
 
-new3ds90.firm:
+6. Run SafeA9LHInstaller
+
+For a complete a9lh guide,please,see the great [Plailect's Guide](https://github.com/Plailect/Guide/wiki).
+
+# File info
+
+firm0.bin
 
 SHA256:
-d7be76e1813f398dcea85572d0c058f7954761a1d5ea03b5eb5047ac63ac5d6b
+6e4d14ad5150a59a875962b7090a3c744f724bbd973933f211c93522c8bb1c7d
 
 SHA1:
-ae5c77cd2c43c68050f194f0bb607f7e87e909a5
+40ff8ee94946232512d1d30ad266954828547cea
 
 MD5:
-f6e7995283944fca0cdac8523786ec04
+f0f8e46d11b388f19a31f3fad5c47e1b
 
-new3ds10.firm:
+firm1.bin:
 
 SHA256:
 d253c1cc0a5ffac6b383dac1827cfb3b2d3d566c6a1a8e5254e389c2950623e5
