@@ -7,7 +7,7 @@ You must have [devkitARM with devkitPro](http://devkitpro.org/wiki/Getting_Start
 
 Open up Command Prompt
 
-1. Clone arm9loaderhax:
+1. Clone AuroraWright fork of delebile arm9loaderhax initial implementation:
 `git clone https://github.com/AuroraWright/arm9loaderhax`
 
 2. Go to the arm9loaderhax folder:
