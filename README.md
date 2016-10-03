@@ -1,32 +1,12 @@
 
-# Data_Input for Arm9loaderhax: https://github.com/delebile/arm9loaderhax
+# Data_Input for Arm9loaderhax
 
-# IMPORTANT: THIS WILL BRICK YOUR CONSOLE IF YOU DO NOT INSTALL IT WITH [SAFEA9LH V2](https://github.com/AuroraWright/SafeA9LHInstaller/releases)!!!!
+# See [Plailect Guide](https://github.com/Plailect/Guide/wiki) for use!
 
-You must have [devkitARM with devkitPro](http://devkitpro.org/wiki/Getting_Started) in your PATH.
-
-Open up Command Prompt
-
-1. Clone AuroraWright fork of delebile arm9loaderhax initial implementation:
-`git clone https://github.com/AuroraWright/arm9loaderhax`
-
-2. Go to the arm9loaderhax folder:
-"cd arm9loaderhax"
-
-3. Run `make`
-
-4. Clone this repo:
-`git clone https://github.com/mariogamer2/data_input`
-
-5. Copy the content of this repo (exept README and gitignore), your personnal OTP file and the content of the `out` folder of arm9loadhax (after running make) in an `a9lh` folder on the root of your SD
-
-6. Run SafeA9LHInstaller
-
-For a complete a9lh guide,please,see the great [Plailect's Guide](https://github.com/Plailect/Guide/wiki).
 
 # File info
 
-firm0.bin
+(all) firm0.bin
 
 SHA256:
 6e4d14ad5150a59a875962b7090a3c744f724bbd973933f211c93522c8bb1c7d
@@ -37,7 +17,15 @@ SHA1:
 MD5:
 f0f8e46d11b388f19a31f3fad5c47e1b
 
-firm1.bin:
+new3ds90.bin:
+
+SHA256: d7be76e1813f398dcea85572d0c058f7954761a1d5ea03b5eb5047ac63ac5d6b
+
+SHA1: ae5c77cd2c43c68050f194f0bb607f7e87e909a5
+
+MD5: f6e7995283944fca0cdac8523786ec04
+
+(all) firm1.bin && v1.1/new3ds10.bin:
 
 SHA256:
 d253c1cc0a5ffac6b383dac1827cfb3b2d3d566c6a1a8e5254e389c2950623e5
@@ -48,7 +36,18 @@ SHA1:
 MD5:
 7512abc6bdfddb2fcf10732888ff81e5
 
-secret_sector.bin:
+FOR_NEW3DS/firm0_100.bin:
+
+SHA256:
+d82db7b4382b07889977910cc6ec6d877d217923d760af4e8b3aabb263e421c6
+
+SHA1:
+e21409bce0b3bfe7a48a895b123c2a5bd7448211
+
+MD5:
+1a2bf41cf835dee8ba38b6ca0402c6d9
+
+./secret_sector.bin:
 
 SHA256:
 82f2730d2c2da3f30165f987fdccac5cbab24b4e5f65c981cd7be6f438e6d9d3
